@@ -8,6 +8,7 @@
     import iconPath5 from '~/assets/images/mechatronics.png';
     import iconPath6 from '~/assets/images/IoT.png';
     import iconPath7 from '~/assets/images/SmartFarmer.png';
+    import iconPath8 from '~/assets/images/smart_pic_use3.png';
 
 // definePageMeta({
 //     layout: "index-layout"
@@ -98,7 +99,7 @@
             </div>
 
             <!-- Slide 2 -->
-            <div v-if="currentSlide === 1" class="slide slide-active h-screen w-full justify-between flex  pl-52 bg-violet-900">
+            <div v-if="currentSlide === 1" class="slide slide-active h-screen w-full justify-between flex  pl-52 bg-gradient-to-r from-black to-fuchsia-800">
                 <div class="flex-col mt-20 w-full">
                     <div class="flex flex-col">
                         <span class="text-span text-6xl text-white">SMART FARM KMUTNB</span>
@@ -117,7 +118,7 @@
                 </div>
                 <div class="mt-12 flex-col">
                     <div class="flex pt-28 pr-36">
-                        <img :src="iconPath" class="mx-auto scale-150" />
+                        <img :src="iconPath8" class="mx-auto scale-150" />
                     </div>
                 </div>
             </div>
@@ -188,7 +189,7 @@
             <span class="text-span text-5xl text-white">Example</span>
         </div>
         <div class="flex mt-9 shadow-lg w-full justify-between">
-            <div class="flex flex-col h-72 w-80 border shadow-lg"> 
+            <div class="flex flex-col h-72 w-80 shadow-lg"> 
                 <div>
                     <img src="https://img.thingsboard.io/iot-articles/iot-solutions-1_1090x710.png" class="w-full h-50">
                 </div>
@@ -196,7 +197,7 @@
                     <span class="text-span text-xl text-black">Dashboard</span>
                 </div>
             </div>
-            <div class="flex flex-col h-72 w-80 border shadow-lg"> 
+            <div class="flex flex-col h-72 w-80 shadow-lg"> 
                 <div>
                     <img src="https://img.thingsboard.io/iot-articles/iot-solutions-1_1090x710.png" class="w-full h-50">
                 </div>
@@ -204,7 +205,7 @@
                     <span class="text-span text-xl text-black">Dashboard</span>
                 </div>
             </div>
-            <div class="flex flex-col h-72 w-80 border shadow-lg"> 
+            <div class="flex flex-col h-72 w-80 shadow-lg"> 
                 <div>
                     <img src="https://img.thingsboard.io/iot-articles/iot-solutions-1_1090x710.png" class="w-full h-50">
                 </div>
