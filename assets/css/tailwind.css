@@ -43,11 +43,11 @@
     /* navbar */
 
     .navbar {
-        @apply bg-gray-900 p-1 w-full;
+        @apply bg-gray-900 p-1 w-full fixed;
     }
 
     .navbar-container {
-        @apply container mx-auto flex justify-between items-center;
+        @apply container flex justify-between items-center fixed;
     }
 
     .navbar-title {
@@ -55,7 +55,7 @@
     }
 
     .nav-link {
-        @apply text-gray-300 text-lg p-2 rounded-md hover:bg-gray-700 block;
+        @apply text-gray-300 text-sm p-2 rounded-md hover:bg-gray-700 block;
     }
 
     .nav-link i {
@@ -67,7 +67,29 @@
     }
 
     .show-pic-index {
-        @apply pt-4
+        @apply  transform scale-50
+    }
+
+    .text-span {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .carousel-container {
+        width: 100%;
+        /* text-align: center; */
+    }
+      
+    .carousel-slide {
+        transition: opacity 0.5s ease-in-out;
+    }
+
+    .slide {
+        transition: transform all 1s ease-in, opacity 1.5s ease-in-out;
+    }
+    
+    .slide-active {
+        opacity: 1;
+        transform: translateX(0);
     }
 
     /* computer */
