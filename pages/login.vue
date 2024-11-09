@@ -3,7 +3,7 @@ import iconPath from '~/assets/images/icon_durian.png';
 </script>
 
 <template>
-    <div class="min-h-screen bg-gradient-to-br from-purple-600 to-blue-700 py-6 flex flex-col justify-center sm:py-12">
+    <div class="min-h-screen bg-gradient-to-br from-gray-900 to-black py-6 flex flex-col justify-center sm:py-12">
         <div class="relative py-3 sm:max-w-xl sm:mx-auto">
             <!-- Card container with shadow and glass effect -->
             <div class="relative px-4 py-10 bg-white/10 backdrop-blur-md shadow-xl rounded-3xl sm:p-16">
@@ -68,9 +68,12 @@ import iconPath from '~/assets/images/icon_durian.png';
                     <div class="text-center mt-6">
                         <p class="text-gray-200">
                             Don't have an account?
-                            <a href="#" class="text-purple-300 hover:text-purple-200 font-semibold">
-                                Sign up
-                            </a>
+                            <nuxt-link to="signup">
+                                <a href="signup.vue" class="text-purple-300 hover:text-purple-200 font-semibold">
+                                    Sign up
+                                </a>
+                            </nuxt-link>
+
                         </p>
                     </div>
                 </div>
